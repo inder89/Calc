@@ -1,0 +1,48 @@
+body {
+    box-sizing: border-box;
+    background: cadetblue;
+}
+
+.calc {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 30%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.screen {
+    color: white;
+font-size: 40px;
+font-family: "Courier New", Courier, monospace;
+text-align: right;
+padding: 20px 5px;
+width: 100%;
+background-color: black;
+}
+
+.keys {
+    width: 24.5%;
+    border: 1px solid black;
+    
+}
+.keys.btn {
+height: 80px;
+}
+
+.keys.btn.fn {
+    background: orange;
+
+}
+
+.clr {
+    width: 50%;
+}
+
+.keys:nth-last-child(2) {
+    width: 75%;
+}
+
+button:hover {
+    cursor: pointer;
+}
