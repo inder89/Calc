@@ -1,14 +1,14 @@
 body {
     box-sizing: border-box;
-    background: cadetblue;
+    background: white;
 }
 
 .calc {
     display: flex;
     flex-wrap: wrap;
     max-width: 30%;
-    justify-content: space-between;
-    align-content: center;
+    max-width: 50%;
+    min-width: -moz-min-content;
 }
 
 .screen {
@@ -22,18 +22,23 @@ body {
 }
 
 .keys {
-    width: 24.5%;
-    border: 2px solid black;
+    width: 25%;
+    border: 1px solid black;
+    color: inherit;
 
 }
 
 .keys.btn {
     height: 80px;
+    font-size: x-large;
+    background: darkgray;
+    color: 
 }
 
 .keys.btn.fn {
-    background: orange;
-
+    background: #FEDD00;  
+    background: #ff9800;                        //#FA7268
+    color: #f9f8fb;  
 }
 
 .clr {
@@ -46,4 +51,13 @@ body {
 
 button:hover {
     cursor: pointer;
+    background: black;
+}
+
+.keys.btn:hover {
+  background: whitesmoke;
+}
+
+.keys.btn.fn:hover {
+  background: #ffb03a;
 }
