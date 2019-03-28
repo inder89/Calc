@@ -16,5 +16,8 @@
     "bugs": {
         "url": "https://github.com/inder89/Calc/issues"
     },
-    "homepage": "https://github.com/inder89/Calc#readme"
+    "homepage": "https://github.com/inder89/Calc#readme",
+    "devDependencies": {
+        "eslint": "^5.15.3"
+    }
 }
